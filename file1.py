@@ -1,4 +1,13 @@
-print("Addition",8+9)
-print("Subtraction",15-7)
-print("Multiplication", 8 * 7)
-print("Division",12/4)
+name = input("Enter student name: ")
+
+mark1 = int(input("Enter mark for Subject 1: "))
+mark2 = int(input("Enter mark for Subject 2: "))
+mark3 = int(input("Enter mark for Subject 3: "))
+
+total = mark1 + mark2 + mark3
+average = total / 3
+
+print("\n--- Student Mark Details ---")
+print("Student Name:", name)
+print("Total Marks:", total)
+print("Average Marks:", average)
